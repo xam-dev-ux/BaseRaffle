@@ -1,0 +1,25 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4Li4uIn0",
+    "payload": "eyJkb21haW4iOiJiYXNlcmFmZmxlLmFwcCJ9",
+    "signature": "MHg..."
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "BaseRaffle",
+    "homeUrl": "https://baseraffle.app",
+    "iconUrl": "https://baseraffle.app/images/icon-1024.png",
+    "splashImageUrl": "https://baseraffle.app/images/splash-200.png",
+    "splashBackgroundColor": "#0a0a0f",
+    "subtitle": "Fair Raffles on Base",
+    "description": "Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness.",
+    "primaryCategory": "games",
+    "tags": ["raffle", "lottery", "base", "chainlink", "vrf"],
+    "heroImageUrl": "https://baseraffle.app/images/hero-1200x630.png",
+    "tagline": "Provably Fair Raffles",
+    "ogTitle": "BaseRaffle",
+    "ogDescription": "Decentralized raffles on Base with Chainlink VRF randomness",
+    "ogImageUrl": "https://baseraffle.app/images/og-image.png",
+    "requiredChains": ["eip155:8453"]
+  }
+}
