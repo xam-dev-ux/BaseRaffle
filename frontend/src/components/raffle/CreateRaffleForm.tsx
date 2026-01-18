@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAccount } from 'wagmi';
 import { Ticket, Clock, Users, Info, Loader2, CheckCircle } from 'lucide-react';
 import { useCreateRaffle } from '@/hooks/useCreateRaffle';
-import { parseETH, formatETH, cn } from '@/lib/utils';
+import { parseETH, cn } from '@/lib/utils';
 
 interface FormData {
   description: string;
@@ -29,7 +29,7 @@ export function CreateRaffleForm() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [errors, setErrors] = useState<Partial<FormData>>({});
 
-  const { createRaffle, isPending, isConfirming, isSuccess, hash, error, reset } =
+  const { createRaffle, isPending, isConfirming, isSuccess, error, reset } =
     useCreateRaffle();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

@@ -52,7 +52,7 @@ export function RaffleDetail({ raffle, participants, onRefresh }: RaffleDetailPr
   const isEnded = Number(raffle.endTime) * 1000 < Date.now();
   const canClose = isEnded && isActive && raffle.ticketsSold > 0n;
   const canCancel = isCreator && isActive && raffle.ticketsSold === 0n;
-  const canRefund = isCancelled && userTickets && userTickets > 0n;
+  const canRefund = isCancelled && userTickets !== undefined && userTickets > 0n;
 
   const progress =
     raffle.maxTickets > 0n
@@ -172,7 +172,7 @@ export function RaffleDetail({ raffle, participants, onRefresh }: RaffleDetailPr
             </span>
             <span className="text-xl text-gray-400">ETH</span>
           </div>
-          {estimatedPrize && (
+          {estimatedPrize !== undefined && estimatedPrize > 0n && (
             <p className="text-sm text-gray-500 mt-1">
               Winner receives: {formatETH(estimatedPrize)} ETH (after 2.5% fee)
             </p>

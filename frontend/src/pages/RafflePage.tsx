@@ -44,7 +44,7 @@ export function RafflePage() {
 
       <RaffleDetail
         raffle={raffle}
-        participants={participants || []}
+        participants={[...(participants || [])]}
         onRefresh={refetch}
       />
     </>
