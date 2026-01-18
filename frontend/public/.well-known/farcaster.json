@@ -1,25 +1,25 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4Li4uIn0",
-    "payload": "eyJkb21haW4iOiJiYXNlcmFmZmxlLmFwcCJ9",
-    "signature": "MHg..."
+    "header": "eyJmaWQiOjU4MDczOCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDEwOUM5ZTgwMTNFY2U4ODZENGY4QUUyNjkyNTRkZTkzMEFFZmNkNDQifQ",
+    "payload": "eyJkb21haW4iOiJiYXNlLXJhZmZsZS1wbHVtLnZlcmNlbC5hcHAifQ",
+    "signature": "5RcmFwRWB1bFOZIhZS4tQmcGpGZ5EjovSB/EGP98cVN/Ni65oeV18Moo63LsRxNNGddEOckCzwaqax6RxtEPDBs="
   },
   "miniapp": {
     "version": "1",
     "name": "BaseRaffle",
-    "homeUrl": "https://baseraffle.app",
-    "iconUrl": "https://baseraffle.app/images/icon-1024.png",
-    "splashImageUrl": "https://baseraffle.app/images/splash-200.png",
+    "homeUrl": "https://base-raffle-plum.vercel.app",
+    "iconUrl": "https://base-raffle-plum.vercel.app/images/icon-1024.png",
+    "splashImageUrl": "https://base-raffle-plum.vercel.app/images/splash-200.png",
     "splashBackgroundColor": "#0a0a0f",
     "subtitle": "Fair Raffles on Base",
     "description": "Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness.",
     "primaryCategory": "games",
     "tags": ["raffle", "lottery", "base", "chainlink", "vrf"],
-    "heroImageUrl": "https://baseraffle.app/images/hero-1200x630.png",
+    "heroImageUrl": "https://base-raffle-plum.vercel.app/images/hero-1200x630.png",
     "tagline": "Provably Fair Raffles",
     "ogTitle": "BaseRaffle",
     "ogDescription": "Decentralized raffles on Base with Chainlink VRF randomness",
-    "ogImageUrl": "https://baseraffle.app/images/og-image.png",
+    "ogImageUrl": "https://base-raffle-plum.vercel.app/images/og-image.png",
     "requiredChains": ["eip155:8453"]
   }
 }
