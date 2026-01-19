@@ -8,13 +8,24 @@
     "version": "1",
     "name": "BaseRaffle",
     "homeUrl": "https://base-raffle-plum.vercel.app",
-    "iconUrl": "https://base-raffle-plum.vercel.app/images/icon-1024.png",
-    "imageUrl": "https://base-raffle-plum.vercel.app/images/og-image.png",
-    "splashImageUrl": "https://base-raffle-plum.vercel.app/images/splash-200.png",
+    "imageUrl": "https://base-raffle-plum.vercel.app/cover-1200x630.png",
+    "iconUrl": "https://base-raffle-plum.vercel.app/icon-1024.png",
+    "splashImageUrl": "https://base-raffle-plum.vercel.app/splash.png",
     "splashBackgroundColor": "#0a0a0f",
     "subtitle": "Fair Raffles on Base",
     "description": "Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness.",
+    "screenshotUrls": [
+      "https://base-raffle-plum.vercel.app/screenshots/screenshot-1.png",
+      "https://base-raffle-plum.vercel.app/screenshots/screenshot-2.png",
+      "https://base-raffle-plum.vercel.app/screenshots/screenshot-3.png"
+    ],
     "primaryCategory": "games",
-    "tags": ["raffle", "base", "chainlink", "vrf"]
+    "tags": ["raffle", "lottery", "base", "chainlink", "vrf"],
+    "heroImageUrl": "https://base-raffle-plum.vercel.app/cover-1200x630.png",
+    "tagline": "Provably Fair Raffles",
+    "ogTitle": "BaseRaffle - Fair Raffles",
+    "ogDescription": "Create and participate in provably fair raffles on Base. Powered by Chainlink VRF.",
+    "ogImageUrl": "https://base-raffle-plum.vercel.app/cover-1200x630.png",
+    "noindex": false
   }
 }
