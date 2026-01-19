@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0a0a0f"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0052FF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad)"/>
+  <circle cx="600" cy="300" r="120" stroke="#0052FF" stroke-width="20" fill="none"/>
+  <path d="M600 420 L600 520" stroke="#0052FF" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="600" cy="570" r="20" fill="#0052FF"/>
+  <text x="600" y="680" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="bold">BaseRaffle</text>
+  <text x="600" y="740" text-anchor="middle" fill="#9CA3AF" font-family="Arial, sans-serif" font-size="28">Provably Fair Raffles on Base</text>
+</svg>
