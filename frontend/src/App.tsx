@@ -10,7 +10,12 @@ import { History } from './pages/History';
 function App() {
   useEffect(() => {
     // Signal to Mini App host that the app is ready
-    sdk.actions.ready();
+    try {
+      sdk.actions.ready();
+    } catch (error) {
+      // Silently fail if not in Mini App context
+      console.log('Mini App SDK not available:', error);
+    }
   }, []);
 
   return (

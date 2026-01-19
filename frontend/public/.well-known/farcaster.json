@@ -4,13 +4,17 @@
     "payload": "eyJkb21haW4iOiJiYXNlLXJhZmZsZS1wbHVtLnZlcmNlbC5hcHAifQ",
     "signature": "5RcmFwRWB1bFOZIhZS4tQmcGpGZ5EjovSB/EGP98cVN/Ni65oeV18Moo63LsRxNNGddEOckCzwaqax6RxtEPDBs="
   },
-  "frame": {
+  "miniapp": {
     "version": "1",
     "name": "BaseRaffle",
     "homeUrl": "https://base-raffle-plum.vercel.app",
     "iconUrl": "https://base-raffle-plum.vercel.app/images/icon-1024.png",
+    "imageUrl": "https://base-raffle-plum.vercel.app/images/og-image.png",
     "splashImageUrl": "https://base-raffle-plum.vercel.app/images/splash-200.png",
     "splashBackgroundColor": "#0a0a0f",
-    "webhookUrl": "https://base-raffle-plum.vercel.app/api/webhook"
+    "subtitle": "Fair Raffles on Base",
+    "description": "Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness.",
+    "primaryCategory": "games",
+    "tags": ["raffle", "base", "chainlink", "vrf"]
   }
 }
