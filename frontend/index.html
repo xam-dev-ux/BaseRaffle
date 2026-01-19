@@ -1,36 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/icon.svg" />
+    <link rel="icon" type="image/png" href="/icon-1024.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Base App ID -->
+    <meta name="base:app_id" content="696d3d5ef22fe462e74c13dc" />
+
     <!-- Primary Meta Tags -->
-    <title>BaseRaffle - Decentralized Raffles on Base</title>
-    <meta name="title" content="BaseRaffle - Decentralized Raffles on Base" />
+    <title>BaseRaffle - Provably Fair Raffles on Base</title>
+    <meta name="title" content="BaseRaffle - Provably Fair Raffles on Base" />
     <meta name="description" content="Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://base-raffle-plum.vercel.app/" />
-    <meta property="og:title" content="BaseRaffle - Decentralized Raffles on Base" />
-    <meta property="og:description" content="Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness." />
+    <meta property="og:title" content="BaseRaffle - Fair Raffles" />
+    <meta property="og:description" content="Create and participate in provably fair raffles on Base. Powered by Chainlink VRF." />
     <meta property="og:image" content="https://base-raffle-plum.vercel.app/cover-1200x630.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://base-raffle-plum.vercel.app/" />
-    <meta property="twitter:title" content="BaseRaffle - Decentralized Raffles on Base" />
-    <meta property="twitter:description" content="Create and participate in provably fair raffles on Base. Powered by Chainlink VRF for true randomness." />
+    <meta property="twitter:title" content="BaseRaffle - Fair Raffles" />
+    <meta property="twitter:description" content="Create and participate in provably fair raffles on Base. Powered by Chainlink VRF." />
     <meta property="twitter:image" content="https://base-raffle-plum.vercel.app/cover-1200x630.png" />
 
-    <!-- Base Mini Apps / Farcaster Frame Embed -->
-    <meta name="fc:frame" content='{"version":"1","imageUrl":"https://base-raffle-plum.vercel.app/cover-1200x630.png","button":{"title":"Join Raffle","action":{"type":"launch_frame","url":"https://base-raffle-plum.vercel.app","name":"BaseRaffle","splashImageUrl":"https://base-raffle-plum.vercel.app/splash.png","splashBackgroundColor":"#0a0a0f"}}}' />
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- Farcaster Mini App Metadata -->
+    <meta
+      property="fc:miniapp"
+      content='{
+        "version": "next",
+        "imageUrl": "https://base-raffle-plum.vercel.app/cover-1200x630.png",
+        "button": {
+          "title": "Open BaseRaffle",
+          "action": {
+            "type": "launch_miniapp",
+            "name": "BaseRaffle",
+            "url": "https://base-raffle-plum.vercel.app",
+            "splashImageUrl": "https://base-raffle-plum.vercel.app/splash.png",
+            "splashBackgroundColor": "#0a0a0f"
+          }
+        }
+      }'
+    />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0052FF" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/icon-1024.png" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="/.well-known/farcaster.json" />
   </head>
   <body class="bg-gray-950 text-white antialiased">
     <div id="root"></div>
